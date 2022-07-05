@@ -21,29 +21,21 @@ function bmicard(){
     
     
      if(result>=40){
-        
-        console.log("Extreme Obesity ")
-        document.getElementById("screen2").value="Extreme Obesity"
+               document.getElementById("screen2").value="Extreme Obesity"
     
       } else if(result>=30){
-            console.log("Obese")
-           
-            document.getElementById("screen2").value="Obese"
+                document.getElementById("screen2").value="Obese"
       } 
     else if(result>=25){
-    console.log( "Overweight ");
-    document.getElementById("screen2").value="Overweight "
+        document.getElementById("screen2").value="Overweight "
     }
     else if(result<=16){
-        console.log( "Severely Underweight");
-        document.getElementById("screen2").value="Severely Underweight"
+               document.getElementById("screen2").value="Severely Underweight"
     }
       else if(result<=18.5){
-        console.log(" Underweight");
-        document.getElementById("screen2").value="Underweight"
+                document.getElementById("screen2").value="Underweight"
       }else{
-        console.log("Normal");
-        document.getElementById("screen2").value="Normal"
+            document.getElementById("screen2").value="Normal"
     }
     
      
