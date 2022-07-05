@@ -37,12 +37,10 @@ function bmicard(){
       }else{
             document.getElementById("screen2").value="Normal"
     }
-    
-     
+         
     }
     
-    
-    
+       
     function clearbuton(){
         document.getElementById("screen1").value=""
         document.getElementById("screen2").value=""
