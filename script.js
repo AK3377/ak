@@ -13,13 +13,9 @@ function bmicard(){
      h=h/100 
      
      var result=w/(h*h)
-     console.log(+result)
-     result=result.toFixed(2)
-    
-     document.getElementById("screen1").value=result;
-    
-    
-    
+       result=result.toFixed(2)
+       document.getElementById("screen1").value=result;
+           
      if(result>=40){
                document.getElementById("screen2").value="Extreme Obesity"
     
@@ -45,15 +41,10 @@ function bmicard(){
         document.getElementById("screen1").value=""
         document.getElementById("screen2").value=""
         document.getElementById("cm").value=""
-        document.getElementById("kg").value=""
-      
+        document.getElementById("kg").value=""      
         
     }
      
-    
-    
-    
-    
     
     function bmiclose(){
         var c=document.getElementById("bmi");
